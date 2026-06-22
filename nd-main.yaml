@@ -8,39 +8,39 @@ author: Andyyy
 tasks:
   # Download server.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/server.cfg
+    url: https://jiashu.1win.eu.org/https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/server.cfg
     path: ./server.cfg
     
   # Download ndcore.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/ndcore.cfg
+    url: https://jiashu.1win.eu.org/https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/ndcore.cfg
     path: ./ndcore.cfg
 
   # Download inventory.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/inventory.cfg
+    url: https://jiashu.1win.eu.org/https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/inventory.cfg
     path: ./inventory.cfg
     
-  # Download resources.cfg
+  # Download resources'
   - action: download_file
-    url: https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/resources.cfg
+    url: https://jiashu.1win.eu.org/https://raw.githubusercontent.com/ND-Framework/txadmin-recipe/main/resources.cfg
     path: ./resources.cfg
 
   # Download logo
   - action: download_file
-    url: https://github.com/ND-Framework/txadmin-recipe/blob/main/logo.png
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/txadmin-recipe/blob/main/logo.png
     path: ./logo.png
 
   # Download default CFX resources
   - action: download_github
-    src: https://github.com/citizenfx/cfx-server-data
+    src: https://jiashu.1win.eu.org/https://github.com/citizenfx/cfx-server-data
     ref: master
     subpath: resources
     dest: ./resources/[default]
 
   # Download screenshot-basic
   - action: download_file
-    url: https://github.com/andyyy7666/screenshot-basic/releases/latest/download/screenshot-basic.zip
+    url: https://jiashu.1win.eu.org/https://github.com/andyyy7666/screenshot-basic/releases/latest/download/screenshot-basic.zip
     path: ./tmp/screenshot-basic.zip
   - action: unzip
     src: ./tmp/screenshot-basic.zip
@@ -48,13 +48,13 @@ tasks:
 
   # Download pma-voice
   - action: download_github
-    src: https://github.com/AvarianKnight/pma-voice
+    src: https://jiashu.1win.eu.org/https://github.com/AvarianKnight/pma-voice
     ref: main
     dest: ./resources/[dependencies]/pma-voice
 
   # Download ox_lib
   - action: download_file
-    url: https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
+    url: https://jiashu.1win.eu.org/https://github.com/overextended/ox_lib/releases/latest/download/ox_lib.zip
     path: ./tmp/ox_lib.zip
   - action: unzip
     src: ./tmp/ox_lib.zip
@@ -62,7 +62,7 @@ tasks:
 
   # Download oxmysql
   - action: download_file
-    url: https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
+    url: https://jiashu.1win.eu.org/https://github.com/overextended/oxmysql/releases/latest/download/oxmysql.zip
     path: ./tmp/oxmysql.zip
   - action: unzip
     src: ./tmp/oxmysql.zip
@@ -70,7 +70,7 @@ tasks:
 
   # Download ND_Core
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Core/releases/latest/download/ND_Core.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Core/releases/latest/download/ND_Core.zip
     path: ./tmp/ND_Core.zip
   - action: unzip
     src: ./tmp/ND_Core.zip
@@ -78,7 +78,7 @@ tasks:
 
   # Download fivem-appearance
   - action: download_file
-    url: https://github.com/Andyyy7666/fivem-appearance/releases/latest/download/fivem-appearance.zip
+    url: https://jiashu.1win.eu.org/https://github.com/Andyyy7666/fivem-appearance/releases/latest/download/fivem-appearance.zip
     path: ./tmp/fivem-appearance.zip
   - action: unzip
     src: ./tmp/fivem-appearance.zip
@@ -86,7 +86,7 @@ tasks:
 
   # Download ox_target
   - action: download_file
-    url: https://github.com/overextended/ox_target/releases/latest/download/ox_target.zip
+    url: https://jiashu.1win.eu.org/https://github.com/overextended/ox_target/releases/latest/download/ox_target.zip
     path: ./tmp/ox_target.zip
   - action: unzip
     src: ./tmp/ox_target.zip
@@ -94,7 +94,7 @@ tasks:
 
   # Download ox_doorlock
   - action: download_file
-    url: https://github.com/overextended/ox_doorlock/releases/latest/download/ox_doorlock.zip
+    url: https://jiashu.1win.eu.org/https://github.com/overextended/ox_doorlock/releases/latest/download/ox_doorlock.zip
     path: ./tmp/ox_doorlock.zip
   - action: unzip
     src: ./tmp/ox_doorlock.zip
@@ -102,7 +102,7 @@ tasks:
 
   # Download ox_inventory
   - action: download_file
-    url: https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
+    url: https://jiashu.1win.eu.org/https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
     path: ./tmp/ox_inventory.zip
   - action: unzip
     src: ./tmp/ox_inventory.zip
@@ -110,7 +110,7 @@ tasks:
 
   # Download npwd
   - action: download_file
-    url: https://github.com/project-error/npwd/releases/latest/download/npwd.zip
+    url: https://jiashu.1win.eu.org/https://github.com/project-error/npwd/releases/latest/download/npwd.zip
     path: ./tmp/npwd.zip
   - action: unzip
     src: ./tmp/npwd.zip
@@ -122,7 +122,7 @@ tasks:
 
   # Download ND_Characters
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Characters/releases/latest/download/ND_Characters.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Characters/releases/latest/download/ND_Characters.zip
     path: ./tmp/ND_Characters.zip
   - action: unzip
     src: ./tmp/ND_Characters.zip
@@ -130,13 +130,13 @@ tasks:
 
   # Download ND_AppearanceShops
   - action: download_github
-    src: https://github.com/ND-Framework/ND_AppearanceShops
+    src: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_AppearanceShops
     ref: main
     dest: ./resources/[scripts]/ND_AppearanceShops
 
   # Download ND_Dealership
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Dealership/releases/latest/download/ND_Dealership.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Dealership/releases/latest/download/ND_Dealership.zip
     path: ./tmp/ND_Dealership.zip
   - action: unzip
     src: ./tmp/ND_Dealership.zip
@@ -144,19 +144,19 @@ tasks:
 
   # Download ND_Casino
   - action: download_github
-    src: https://github.com/ND-Framework/ND_Casino
+    src: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Casino
     ref: main
     dest: ./resources/[scripts]/ND_Casino
 
   # Download ND_Blackjack
   - action: download_github
-    src: https://github.com/ND-Framework/ND_Blackjack
+    src: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Blackjack
     ref: master
     dest: ./resources/[scripts]/ND_Blackjack
 
   # Download ND_Nitro
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Nitro/releases/latest/download/ND_Nitro.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Nitro/releases/latest/download/ND_Nitro.zip
     path: ./tmp/ND_Nitro.zip
   - action: unzip
     src: ./tmp/ND_Nitro.zip
@@ -164,7 +164,7 @@ tasks:
 
   # Download ND_Status
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Status/releases/latest/download/ND_Status.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Status/releases/latest/download/ND_Status.zip
     path: ./tmp/ND_Status.zip
   - action: unzip
     src: ./tmp/ND_Status.zip
@@ -172,7 +172,7 @@ tasks:
 
   # Download ND_Banking
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Banking/releases/latest/download/ND_Banking.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Banking/releases/latest/download/ND_Banking.zip
     path: ./tmp/ND_Banking.zip
   - action: unzip
     src: ./tmp/ND_Banking.zip
@@ -180,7 +180,7 @@ tasks:
 
   # Download ND_MDT
   - action: download_file
-    url: https://github.com/ND-Framework/ND_MDT/releases/latest/download/ND_MDT.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_MDT/releases/latest/download/ND_MDT.zip
     path: ./tmp/ND_MDT.zip
   - action: unzip
     src: ./tmp/ND_MDT.zip
@@ -188,7 +188,7 @@ tasks:
 
   # Download ND_Police
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Police/releases/latest/download/ND_Police.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Police/releases/latest/download/ND_Police.zip
     path: ./tmp/ND_Police.zip
   - action: unzip
     src: ./tmp/ND_Police.zip
@@ -196,7 +196,7 @@ tasks:
 
   # Download ND_Ambulance
   - action: download_file
-    url: https://github.com/ND-Framework/ND_Ambulance/releases/latest/download/ND_Ambulance.zip
+    url: https://jiashu.1win.eu.org/https://github.com/ND-Framework/ND_Ambulance/releases/latest/download/ND_Ambulance.zip
     path: ./tmp/ND_Ambulance.zip
   - action: unzip
     src: ./tmp/ND_Ambulance.zip
